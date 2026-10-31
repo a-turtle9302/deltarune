@@ -4,6 +4,10 @@
       "source": "/(.*)",
       "headers": [
         {
+          "key": "X-Frame-Options",
+          "value": ""
+        },
+        {
           "key": "Content-Security-Policy",
           "value": "frame-ancestors 'self' https://*.discord.com https://*.discordsays.com https://discord.com"
         }
